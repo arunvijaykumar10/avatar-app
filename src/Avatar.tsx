@@ -20,6 +20,7 @@ interface AvatarType {
   src: string;
 }
 
+
 function AvatarComponent() {
   const [anchorEl, setAnchorEl] = useState<HTMLElement | null>(null);
   const [checked, setChecked] = useState<number[]>([]);
